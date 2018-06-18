@@ -1,0 +1,66 @@
+{
+	"Print to console": {
+		"prefix": "log",
+		"body": [
+			"console.log('$1');",
+			"$2"
+		],
+		"description": "Log output to console"
+	},
+	"デバック呼ばれたよ１": {
+		"prefix": "log1",
+		"body": [
+			"console.log('呼ばれたよ1');",
+			"$2"
+		],
+		"description": "Log output to console"
+	},
+	"デバック呼ばれたよ2": {
+		"prefix": "log2",
+		"body": [
+			"console.log('呼ばれたよ2');",
+			"$2"
+		],
+		"description": "Log output to console"
+	},
+	"デバック呼ばれたよ3": {
+		"prefix": "log3",
+		"body": [
+			"console.log('呼ばれたよ3');",
+			"$2"
+		],
+		"description": "Log output to console"
+	},
+	"import React": {
+		"prefix": "imre",
+		"body": [
+			"import * as React from 'react'",
+			"$2"
+		],
+		"description": "import react"
+	},
+	"stateless components": {
+		"prefix": "con",
+		"body": [
+			"export const $1: React.StatelessComponent<Props> = props => {return (<div></div>)};",
+			"$2"
+		],
+		"description": "stateless components"
+	},
+	"interface State": {
+		"prefix": "inst",
+		"body": [
+			"interface State {$1};",
+			"$2"
+		],
+		"description": "interface State"
+	},
+	"interface Props": {
+		"prefix": "inpr",
+		"body": [
+			"interface Props {$1};",
+			"$2"
+		],
+		"description": "interface Props"
+	}
+}
